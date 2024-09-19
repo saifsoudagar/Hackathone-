@@ -1,0 +1,37 @@
+.detail-card {
+    width: 542px;
+    height: 276px;
+    background-color: #f8f9fd;
+    border-radius: 20px;
+    padding: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.detail-card__icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.detail-card__heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 0;
+}
+
+.detail-card__para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #64607d;
+    margin: 0;
+}

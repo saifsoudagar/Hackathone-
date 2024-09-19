@@ -1,0 +1,38 @@
+.container {
+    width: 1440px;
+    height: auto;
+    background-color: #003145;
+}
+
+.header {
+    background-color: #002A3B;
+    height: 324px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px 20px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.no-hackathons {
+    color: #F8F9FD;
+    text-align: center;
+    width: 100%;
+}
